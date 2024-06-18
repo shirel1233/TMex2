@@ -67,7 +67,7 @@ void Knapsack(int weights[], int values[], int selected_bool[][MAX_WEIGHT+1]) {
         }
     }
 
-    printf("Maximum profit: %d\n", max_value);
+    printf("Maximum value: %d\n", max_value);
     printf("Selected items:");
     for (i = j - 1; i >= 0; i--) {
         printf(" %c", namesArr[result[i] - 1]);
